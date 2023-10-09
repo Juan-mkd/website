@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-sena">
+            <div class="container">
+              <a class="navbar-brand" href="#">LOGO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#servicios">SERVICIOS</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">BLOG</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">CONTACTO</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+          <div id="carouselHeroCaptions" class="carousel slide " data-bs-ride="carousel">
+            
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/img1.jpg" class="d-block w-100" alt="slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/img2.jpg" class="d-block w-100" alt="slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/img3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/img4.jpg" class="d-block w-100" alt="carro">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHeroCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+
+
+    <main>
+       <section id="nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/nosotros.jpg" alt="carro">
+                </div>
+                <div class="col-md-6">
+                    <h1>Sobre Nosotros</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa deserunt fugit ullam iste. Dolor illum sunt itaque asperiores consequatur possimus. Quidem distinctio rem quia est ipsam quae, fugiat eligendi tempora dolor ducimus amet accusantium in, consequuntur nobis iste nulla aspernatur suscipit placeat deleniti ipsum vel expedita quam eos? Repellat quod rem unde recusandae porro voluptates libero esse, blanditiis ut suscipit ducimus facere harum alias, exercitationem dolor iste cumque quos quasi. Laboriosam sed obcaecati enim quas aspernatur cupiditate nulla magni eos eius? Qui voluptates sunt ad quod nemo optio autem, hic porro alias quidem sint voluptatibus culpa, excepturi rerum tempore a? Itaque delectus, molestiae labore fugit doloribus laboriosam consectetur dolores in excepturi iure recusandae magnam ad dolorum ratione, eligendi aut porro.</p>
+                    <a href="#">conocer +</a>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <section id="servicios">
+        <div class="container text-center">
+            <h2>Nuestros <br> <span>Servicios</span></h2>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-servicio">
+                        <img src="img/servicios/carro1.jpg" alt="carro" class="w-100">
+                        <a href="#">servicio 1</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-servicio">
+                        <img src="img/servicios/carro2.jpg" alt="carro" class="w-100">
+                        <a href="#">servicio 1</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-servicio">
+                        <img src="img/servicios/carro3.jpg" alt="carro" class="w-100">
+                        <a href="#">servicio 1</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-servicio">
+                        <img src="img/servicios/carro4.jpg" alt="carro" class="w-100">
+                        <a href="#">servicio 1</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-servicio">
+                        <img src="img/servicios/carro5.jpg" alt="carro" class="w-100">
+                        <a href="#">servicio 1</a>
+                    </div>
+                </div><div class="col-lg-4 col-md-6">
+                    <div class="card-servicio">
+                        <img src="img/servicios/carro6.jpg" alt="carro" class="w-100">
+                        <a href="#">servicio 1</a>
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+       </section>
+
+      
+
+       <section id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                <h2>Contacto!</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quos repellat repudiandae enim soluta voluptatibus illum velit quidem reiciendis debitis ab vitae repellendus blanditiis temporibus sit, obcaecati tempore vero atque maxime? Itaque deleniti tempore culpa quas, cumque pariatur iure repudiandae at recusandae nam veniam doloremque iusto numquam alias voluptas porro!</p>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Nombres</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensajes</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+
+                   
+                    <button type="submit" class="btn btn-primary">enviar</button>
+                  </form>
+            </div>
+            <div class="col-lg-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.875060122726!2d-74.09458482411823!3d4.616367642381009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f996f784e82a1%3A0xde1500803ab6185c!2sSENA%20Centro%20de%20Dise%C3%B1o%20y%20Metrolog%C3%ADa!5e0!3m2!1ses-419!2sco!4v1696611048790!5m2!1ses-419!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    </section>
+    </main>
+
+
+
+
+
+    <footer>
+        <p> ©2023 -Juan Esteban Calderón Ovalle 2617500 </p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
